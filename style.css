@@ -479,11 +479,12 @@ footer #arrow {
         margin: 30vh auto;
         gap: 2vh;
     }
-    .section-home-content-left h1 {`
+    .section-home-content-left h1 {
         font-size: 4vh;
     }
     .section-home-content-left p {
         width: 70vw;
+        font-size: 3vh;
     }
     .section-home-content-left .social-media a {
         font-size: 8vw;
