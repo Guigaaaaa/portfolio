@@ -51,7 +51,6 @@ header .logo:before {
 }
 header nav {
     display: flex;
-    margin-inline: 10em;
     transition: .25s;
 }
 header nav .active {
