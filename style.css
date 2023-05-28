@@ -108,7 +108,7 @@ header nav a {
     color: var(--color-white);
     font-size: 4vh;
     font-weight: 300;
-    width: 100vw;
+    width: 19em;
 }
 .section-home-content-left .social-media {
     display: flex;
@@ -478,6 +478,9 @@ footer #arrow {
         margin: 30vh auto;
         gap: 2vh;
     }
+    .section-home-content-left p {
+        width: 80vw;
+    }
     .section-home-content-left .social-media a {
         font-size: 8vw;
     }
@@ -520,7 +523,7 @@ footer #arrow {
         width: 18vw;
         animation: smartphone-width3 1s ease;
     }
-    .react::before {
+    .js::before {
         margin-left: 55vw;
     }
     .react-progress {
