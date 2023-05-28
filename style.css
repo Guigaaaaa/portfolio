@@ -13,6 +13,9 @@
     font-family: 'Roboto', Arial, sans-serif;
     scroll-behavior: smooth;
 }
+section {
+    overflow: hidden;
+}
 /* HEADER */
 header {
     position: fixed;
@@ -144,8 +147,8 @@ header nav a {
     display:none;
 }
 .section-skills {
-    width: 100%;
-    height: 100vh;
+    min-width: 100%;
+    height: 90vh;
     background-color: var(--bg);
     display: flex;
     justify-content: center;
@@ -297,8 +300,8 @@ header nav a {
 }
 /* SECTION PROJECTS */
 .section-projects {
-    width: 100%;
-    height: 100vh;
+    min-width: 100%;
+    min-height: 100vh;
     padding-bottom: 30px;
     background-color: var(--bg);
     display: flex;
@@ -483,10 +486,10 @@ footer #arrow {
         margin: 18em auto;
     }
     .section-home-content-left h1 {
-        font-size: 40px;
+        font-size: 5vw;
     }
     .section-home-content-left p {
-        font-size: 26px;
+        font-size: 3vw;
     }
     .section-home-content-left .social-media a {
         font-size: 8vw;
@@ -586,10 +589,10 @@ footer #arrow {
         margin: 10em auto;
     }
     .section-home-content-left h1 {
-        font-size: 28px;
+        font-size: 6vw;
     }
     .section-home-content-left p {
-        font-size: 18px;
+        font-size: 4vw;
     }
     .section-home-content-right {
         margin: -7em auto 7em auto;
@@ -600,10 +603,10 @@ footer #arrow {
 }
 @media (max-width: 480px) {
     .section-home-content-left h1 {
-        font-size: 26px;
+        font-size: 8vw;
     }
     .section-home-content-left p {
-        font-size: 16px;
+        font-size: 5vw;
     }
     .section-home-content-right img {
         height: 36vh;
@@ -616,10 +619,10 @@ footer #arrow {
 }
 @media (max-width: 320px) {
     .section-home-content-left h1 {
-        font-size: 26px;
+        font-size: 6vw;
     }
     .section-home-content-left p {
-        font-size: 16px;
+        font-size: 5vw;
     
     }
     .skills {
