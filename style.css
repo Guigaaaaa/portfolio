@@ -445,6 +445,7 @@ footer #arrow {
     }
     header {
         height: 13vh;
+        width: 100%;
     }
     header .logo {
         font-size: 60px;
