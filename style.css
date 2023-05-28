@@ -528,7 +528,7 @@ footer #arrow {
         width: 18vw;
         animation: smartphone-width3 1s ease;
     }
-    .js::before {
+    .react::before {
         margin-left: 55vw;
     }
     .react-progress {
