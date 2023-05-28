@@ -442,7 +442,7 @@ footer #arrow {
         animation: smartphone-width4 1s ease;
     }
     header {
-        height: 13vw;
+        height: 13vh;
     }
     header .logo {
         font-size: 60px;
@@ -463,7 +463,7 @@ footer #arrow {
         left: -100em;
         flex-direction: column;
         gap: 20px;
-        top: 13vw;
+        top: 13vh;
         transition: 1s;
         padding-bottom: 20px;
         padding: 20px 0px;
@@ -572,7 +572,7 @@ footer #arrow {
         left: 31px;
     }
     header nav {
-        top: 13.5vw;
+        top: 13.5vh;
     }
     #navicon {
         display: flex;
@@ -609,7 +609,7 @@ footer #arrow {
 }
 @media (max-width: 360px) {
     header nav {
-        top: 14.5vw;
+        top: 14.5vh;
     }
 }
 @media (max-width: 320px) {
