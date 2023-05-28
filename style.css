@@ -496,7 +496,7 @@ footer #arrow {
         margin: -21.5em 0em 25em 0;
     }
     .section-home-content-right img {
-        height: 35vh;
+        height: 30vh;
     }
     .html::before {
         margin-left: 55vw;
@@ -561,11 +561,14 @@ footer #arrow {
     footer .social-media a {
         font-size: 4vh;
     }
+    footer #arrow {
+        padding: 5px 10px;
+        border-radius: 3px;
+        position: absolute;
+        margin-left: 81vw;
+    }
 }
 @media (max-width: 599px) {
-    header nav {
-        top: 13.5vh;
-    }
     #navicon {
         display: flex;
     }
@@ -588,9 +591,6 @@ footer #arrow {
     }
 }
 @media (max-width: 360px) {
-    header nav {
-        top: 14.5vh;
-    }
 }
 @media (max-width: 320px) {
     .skills {
@@ -599,12 +599,6 @@ footer #arrow {
     .projects .project p {
         width: 100%;
         font-size: 3vh;
-    }
-    footer #arrow {
-        padding: 7px 10px;
-        border-radius: 3px;
-        position: absolute;
-        margin-left: 84vw;
     }
 }
 /* SCROLL BAR */
