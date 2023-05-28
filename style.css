@@ -169,13 +169,14 @@ header nav a {
     content: "";
     position: absolute;
     margin-top: 1.35em;
+    margin-bottom: 2vh;
     width: 18vh;
     height: 3px;
     background-color: var(--color-blue);
     animation: revel 1s ease;
 }
 .skills {
-    margin-top: 5em;
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     gap: 4em;
@@ -191,7 +192,7 @@ header nav a {
 }
 .html-progress {
     background-color: var(--second-bg);
-    width: 70vh;
+    width: 70vw;
     height: 3vh;
     border-radius: 999px;
 }
@@ -200,7 +201,7 @@ header nav a {
     position: absolute;
     background-color: var(--color-blue);
     border-radius: 999px;
-    width: 52.5vh;
+    width: 52.5vw;
     height: 2.8vh;
 }
 .html-progress::before {
@@ -220,7 +221,7 @@ header nav a {
 }
 .css-progress {
     background-color: var(--second-bg);
-    width: 70vh;
+    width: 70vw;
     height: 3vh;
     border-radius: 999px;
 }
@@ -229,7 +230,7 @@ header nav a {
     position: absolute;
     background-color: var(--color-blue);
     border-radius: 999px;
-    width: 45.5vh;
+    width: 45.5vw;
     height: 2.8vh;
 }
 .css-progress::before {
@@ -249,7 +250,7 @@ header nav a {
 }
 .js-progress {
     background-color: var(--second-bg);
-    width: 70vh;
+    width: 70vw;
     height: 3vh;
     border-radius: 999px;
 }
@@ -258,7 +259,7 @@ header nav a {
     position: absolute;
     background-color: var(--color-blue);
     border-radius: 999px;
-    width: 21vh;
+    width: 21vw;
     height: 2.8vh;
 }
 .js-progress::before {
@@ -278,7 +279,7 @@ header nav a {
 }
 .react-progress {
     background-color: var(--second-bg);
-    width: 70vh;
+    width: 70vw;
     height: 3vh;
     border-radius: 999px;
 }
@@ -287,7 +288,7 @@ header nav a {
     position: absolute;
     background-color: var(--color-blue);
     border-radius: 999px;
-    width: 10.5vh;
+    width: 10.5vw;
     height: 2.8vh;
 }
 .react-progress::before {
@@ -392,7 +393,7 @@ footer .social-media a:hover {
 footer #arrow {
     color: var(--color-gray);
     background-color: var(--bg);
-    padding: 10px 15px;
+    padding: 15px 25px;
     border-radius: 3px;
     position: absolute;
     margin-left: 80vw;
@@ -486,10 +487,10 @@ footer #arrow {
         margin: 18em auto;
     }
     .section-home-content-left h1 {
-        font-size: 5vw;
+        font-size: 10vw;
     }
     .section-home-content-left p {
-        font-size: 3vw;
+        font-size: 5vw;
     }
     .section-home-content-left .social-media a {
         font-size: 8vw;
