@@ -108,7 +108,7 @@ header nav a {
     color: var(--color-white);
     font-size: 4vh;
     font-weight: 300;
-    width: 19em;
+    width: 100vw;
 }
 .section-home-content-left .social-media {
     display: flex;
