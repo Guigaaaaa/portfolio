@@ -13,10 +13,6 @@
     font-family: 'Roboto', Arial, sans-serif;
     scroll-behavior: smooth;
 }
-body {
-    width: 100%;
-    height: 100%;
-}
 /* HEADER */
 header {
     position: fixed;
@@ -51,6 +47,7 @@ header .logo:before {
 }
 header nav {
     display: flex;
+    margin-inline: 10em;
     transition: .25s;
 }
 header nav .active {
@@ -147,7 +144,6 @@ header nav a {
     display:none;
 }
 .section-skills {
-    width: 100%;
     height: 100vh;
     background-color: var(--bg);
     display: flex;
@@ -300,7 +296,6 @@ header nav a {
 }
 /* SECTION PROJECTS */
 .section-projects {
-    width: 100%;
     height: 100vh;
     padding-bottom: 30px;
     background-color: var(--bg);
@@ -447,9 +442,7 @@ footer #arrow {
         animation: smartphone-width4 1s ease;
     }
     header {
-        height: 13vh;
-        width: 100%;
-        position: fixed;
+        height: 13vw;
     }
     header .logo {
         font-size: 60px;
@@ -470,7 +463,7 @@ footer #arrow {
         left: -100em;
         flex-direction: column;
         gap: 20px;
-        top: 13vh;
+        top: 13vw;
         transition: 1s;
         padding-bottom: 20px;
         padding: 20px 0px;
@@ -579,7 +572,7 @@ footer #arrow {
         left: 31px;
     }
     header nav {
-        top: 13.5vh;
+        top: 13.5vw;
     }
     #navicon {
         display: flex;
@@ -616,7 +609,7 @@ footer #arrow {
 }
 @media (max-width: 360px) {
     header nav {
-        top: 14.5vh;
+        top: 14.5vw;
     }
 }
 @media (max-width: 320px) {
