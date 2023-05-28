@@ -432,6 +432,7 @@ footer #arrow {
     }
     footer .social-media a {
         font-size: 4vh;
+        margin-top: 6vh;
     }
 }
 @media (max-width: 999px) {
@@ -478,8 +479,11 @@ footer #arrow {
         margin: 30vh auto;
         gap: 2vh;
     }
+    .section-home-content-left h1 {`
+        font-size: 4vh;
+    }
     .section-home-content-left p {
-        width: 80vw;
+        width: 70vw;
     }
     .section-home-content-left .social-media a {
         font-size: 8vw;
@@ -488,7 +492,7 @@ footer #arrow {
         gap: 6vw;
     }
     .section-home-content-right {
-        margin: -12em 0em 25em 0;
+        margin: -21.5em 0em 25em 0;
     }
     .section-home-content-right img {
         height: 35vh;
@@ -567,12 +571,6 @@ footer #arrow {
     .section-home {
         flex-direction: column;
     }
-    .section-home-content-left h1 {
-        font-size: 6vw;
-    }
-    .section-home-content-left p {
-        font-size: 4vw;
-    }
     .section-home-content-right {
         margin: -7em auto 7em auto;
     }
@@ -584,9 +582,6 @@ footer #arrow {
     .section-home-content-left h1 {
         font-size: 8vw;
     }
-    .section-home-content-left p {
-        font-size: 5vw;
-    }
     .section-home-content-right img {
         height: 36vh;
     }
@@ -597,13 +592,6 @@ footer #arrow {
     }
 }
 @media (max-width: 320px) {
-    .section-home-content-left h1 {
-        font-size: 6vw;
-    }
-    .section-home-content-left p {
-        font-size: 5vw;
-    
-    }
     .skills {
         gap: 30px;
     }
