@@ -98,7 +98,7 @@ header nav a {
 }
 .section-home-content-left h1 {
     color: var(--color-white);
-    font-size: 42px;
+    font-size: 5vh;
     font-weight: 500;
 }
 .section-home-content-left h1 span {
@@ -106,18 +106,18 @@ header nav a {
 }
 .section-home-content-left p {
     color: var(--color-white);
-    font-size: 32px;
+    font-size: 4vh;
     font-weight: 300;
     width: 19em;
 }
 .section-home-content-left .social-media {
     display: flex;
-    gap: 8vw;
+    gap: 2vw;
 }
 .section-home-content-left .social-media a {
     text-decoration: none;
     color: var(--color-gray);
-    font-size: 2vw;
+    font-size: 5vh;
 }
 .section-home-content-left .social-media a:hover {
     color: var(--color-blue);
@@ -444,7 +444,7 @@ footer #arrow {
         z-index: 10;
     }
     header .logo::before {
-        left: 9vw;
+        left: 4.6vh;
     }
     #navicon {
         display: flex;
@@ -481,11 +481,54 @@ footer #arrow {
     .section-home-content-left .social-media a {
         font-size: 8vw;
     }
+    .section-home-content-left .social-media {
+        gap: 6vw;
+    }
     .section-home-content-right {
         margin: -12em 0em 25em 0;
     }
     .section-home-content-right img {
         height: 35vh;
+    }
+    .html::before {
+        margin-left: 55vw;
+    }
+    .html-progress {
+        width: 60vw;
+    }
+    .html-progress::after {
+        width: 45vw;
+        animation: smartphone-width 1s ease;
+    }
+    .css::before {
+        margin-left: 55vw;
+    }
+    .css-progress {
+        width: 60vw;
+    }
+    .css-progress::after {
+        width: 39vw;
+        animation: smartphone-width2 1s ease;
+    }
+    .js::before {
+        margin-left: 55vw;
+    }
+    .js-progress {
+        width: 60vw;
+    }
+    .js-progress::after {
+        width: 18vw;
+        animation: smartphone-width3 1s ease;
+    }
+    .react::before {
+        margin-left: 55vw;
+    }
+    .react-progress {
+        width: 60vw;
+    }
+    .react-progress::after {
+        width: 9vw;
+        animation: smartphone-width4 1s ease;
     }
     .projects {
         flex-direction: column;
@@ -621,6 +664,26 @@ footer #arrow {
     0% { width: 0; }
     60% { width: 0; }
     100% { width: 6vw; }
+}
+@keyframes smartphone-width { 
+    0% { width: 0; }
+    30% { width: 0; }
+    100% { width: 45vw; }
+}
+@keyframes smartphone-width2 { 
+    0% { width: 0; }
+    40% { width: 0; }
+    100% { width: 39vw; }
+}
+@keyframes smartphone-width3 { 
+    0% { width: 0; }
+    50% { width: 0; }
+    100% { width: 18vw; }
+}
+@keyframes smartphone-width4 { 
+    0% { width: 0; }
+    60% { width: 0; }
+    100% { width: 9vw; }
 }
 @keyframes blink-caret {
 from, to { border-color: transparent }
