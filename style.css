@@ -113,7 +113,7 @@ header nav a {
 .section-home-content-left .social-media {
     display: flex;
     gap: 2vw;
-    z-index: 1000;
+    z-index: 10;
 }
 .section-home-content-left .social-media a {
     text-decoration: none;
